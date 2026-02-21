@@ -10,6 +10,7 @@ function updateCalculation(value) {
 
 function calcFinal() {
   calculation = eval(calculation);
+  calculation = Number(calculation.toFixed(10)); 
   localStorage.setItem('calculation', JSON.stringify(calculation));
   displayCalc();
 }

@@ -1,0 +1,52 @@
+body{
+  background-color:black;
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  
+  
+}
+ 
+ 
+.project-name{
+  color:#A47DAB;
+  font-size: 50px;
+  font-weight: bold;
+ padding-bottom:5px;
+}
+.display-calculation{
+   color:#A47DAB;
+  font-size:30px;
+   height:60px;              
+  width:350px;             
+  overflow-x:auto;          
+  white-space:nowrap;       
+  text-align:right;         
+  padding:10px;
+  border-bottom: 2px solid #A47DAB;
+  margin-top: 0;
+}
+div,.reset{
+  margin-top:10px;
+}
+.div-container{
+  margin-top:20px;
+   
+}
+.digits,.operator,.reset{
+  height:80px;
+  width:80px;
+  border-radius: 60px;
+  font-size:40px;
+  margin-right: 10px;
+  border: none;
+}
+.digits,.reset{
+  background-color:#A47DAB;
+}
+.reset{
+  font-size:25px;
+}
+.operator{
+  background-color: rgb(255,218,245);
+}
